@@ -32,7 +32,7 @@ function Navbar() {
                 <h2 id="logo"
                     className="text-center" onClick={(e) => setCurrentKey("")}>
                     <Link to="/">
-                        <span>Arthouse</span>
+                        <span>C4eiHouse</span>
                     </Link>
                 </h2>
                 </Col>

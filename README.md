@@ -1,8 +1,8 @@
 # Art House
 
-Arthouse is an NFT platform that allows you to create, buy and sell NFTs on multiple blockchains.
+C4eiHouse is an NFT platform that allows you to create, buy and sell NFTs on multiple blockchains.
 
-- https://art.atila.ca
+- https://art.c4ei.net
 
 ## Quickstart
 
@@ -15,11 +15,11 @@ Arthouse is an NFT platform that allows you to create, buy and sell NFTs on mult
 
 To build the project: `yarn build`
 
-Here's a [step-by-step tutorial on how to build your own arthouse](https://atila.ca/blog/tomiwa/how-to-build-a-multi-chain-nft-marketplace-on-ethereum-polygon-and-binance-smart-chain-using-solidity-react-hardhat-and-ethersjs/).
+Here's a [step-by-step tutorial on how to build your own C4eiHouse](https://c4ei.net/blog/tomiwa/how-to-build-a-multi-chain-nft-marketplace-on-ethereum-polygon-and-binance-smart-chain-using-solidity-react-hardhat-and-ethersjs/).
 
 ## How it Works
 
-Arthouse can do 4 things:
+C4eiHouse can do 4 things:
 
 1. Mint an NFT
 1. List an NFT for sale
@@ -105,10 +105,10 @@ TODO add a check that chainID matches the passed in network
 `npx hardhat run --network polygon scripts/deploy-hardhat.js`
 
 1. Add the new chain information to `README.md`, see these commits below for examples of what to change:
-    1. [Ethereum](https://github.com/atilatech/art-house/commit/d97572f9d730a3a469a712dec04fc3ea6dc97eb8)
-    1. [Binance](https://github.com/atilatech/art-house/commit/274ff640c116d6637add521e7eae7fe9de2fbe92)
-    1. [Polygon](https://github.com/atilatech/art-house/commit/a211ac1bc50d52ffd266b5eb5fd47bf4b232d366)
-    1. [Celo](https://github.com/atilatech/art-house/commit/af8ab520fe80c3a148e45a963ead9270e2710a80)
+    1. [Ethereum](https://github.com/c4eitech/art-house/commit/d97572f9d730a3a469a712dec04fc3ea6dc97eb8)
+    1. [Binance](https://github.com/c4eitech/art-house/commit/274ff640c116d6637add521e7eae7fe9de2fbe92)
+    1. [Polygon](https://github.com/c4eitech/art-house/commit/a211ac1bc50d52ffd266b5eb5fd47bf4b232d366)
+    1. [Celo](https://github.com/c4eitech/art-house/commit/af8ab520fe80c3a148e45a963ead9270e2710a80)
 
 ### Smart Contract Addresses
 

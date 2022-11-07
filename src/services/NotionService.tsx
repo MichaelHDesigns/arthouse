@@ -2,7 +2,7 @@ import request from "axios";
 
 class NotionService {
 
-    static pageIdUrl = `https://notion-api-worker.atila.workers.dev/v1/page`;
+    static pageIdUrl = `https://notion-api-worker.c4ei.workers.dev/v1/page`;
 
     static getPageId = (pageId: any) => {
 

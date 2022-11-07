@@ -11,7 +11,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-lg-8 col-sm-12">
                         <p className="grey-text text-lighten-4">
-                        Arthouse was created by <a href="https://atila.ca" target="_blank" rel="noreferrer" >Atila.ca</a>{' '}, 
+                        C4eiHouse was created by <a href="https://c4ei.net" target="_blank" rel="noreferrer" >C4ei.ca</a>{' '}, 
                         a plattform for starting and getting scholarships using fiat and crypto.
                         </p>
 
@@ -21,7 +21,7 @@ function Footer() {
                             <span className="connect-links-icons">
                                 
                                 <li>
-                                    <a  target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@atila.tech">
+                                    <a  target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@c4ei.tech">
                                     <FontAwesomeIcon icon={faTiktok} />
                                     </a>
                                 </li>
@@ -31,17 +31,17 @@ function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a  target="_blank" rel="noopener noreferrer" href="https://twitter.com/atilatech">
+                                    <a  target="_blank" rel="noopener noreferrer" href="https://twitter.com/c4eitech">
                                         <FontAwesomeIcon icon={faTwitter} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/atilatech/">
+                                    <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/c4eitech/">
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/atila-tech/">
+                                    <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/c4ei-tech/">
                                         <FontAwesomeIcon icon={faLinkedin} />
                                     </a>
                                 </li>
@@ -51,7 +51,7 @@ function Footer() {
                                 <li>Built with <span role="img" aria-label="heart emoji">
                                 ❤️
                             </span> By {' '}
-                                    <a href="https://atila.ca" target="_blank" style={{color: '#50eafd !important'}} rel="noreferrer" >Atila</a>
+                                    <a href="https://c4ei.net" target="_blank" style={{color: '#50eafd !important'}} rel="noreferrer" >C4ei</a>
                                 </li>
                             </div>
                         </ul>

@@ -8,11 +8,11 @@ function LandingPage() {
     <div className="row">
         <div className="col-md-6">
             <h1 className="text-left">
-                One House.<br/> Many Chains. <br/> Arthouse.
+                One House.<br/> Many Chains. <br/> C4eiHouse.
             </h1>
             <hr/>
             <div className="text-left">
-                Arthouse is an NFT platform that allows you to create, buy and sell NFTs on multiple blockchains. <br/>
+                C4eiHouse is an NFT platform that allows you to create, buy and sell NFTs on multiple blockchains. <br/>
 
                 <hr/>
                 <h2>

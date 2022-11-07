@@ -34,7 +34,7 @@ function CreateNFT() {
 
   async function onChange(e: any) {
     const file = e.target.files[0];
-    // setFileUrl("https://atila.ca/static/media/atila-upway-logo-gradient-circle-border.bfe05867.png");
+    // setFileUrl("https://c4ei.net/static/media/c4ei-upway-logo-gradient-circle-border.bfe05867.png");
     // return;
     try {
       const added = await client.add(

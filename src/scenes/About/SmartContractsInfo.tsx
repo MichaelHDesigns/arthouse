@@ -12,7 +12,7 @@ function SmartContractsInfo() {
             </h2>
 
             <p>
-                <a href="https://github.com/atilatech/art-house/tree/master/contracts" 
+                <a href="https://github.com/c4eitech/art-house/tree/master/contracts" 
                     target="_blank" rel="noreferrer" className="center-block text-center">
                         View Smart Contract code on Github
                 </a>
