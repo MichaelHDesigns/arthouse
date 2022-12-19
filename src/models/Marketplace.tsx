@@ -10,12 +10,13 @@ export class Marketplace {
 
 export const OpenSea: Marketplace = {
     name: "Opensea",
-    supportedChains: ["4", "80001", "137"],
+    supportedChains: ["4", "80001", "137", "2330"],
     getListingUrl: (chain: Chain, nft: NFTMetadata) =>  {
         const chainIdToSymbol: {[key: string]: string} = {
             "4": "rinkeby",
             "137": "matic",
             "80001": "mumbai",
+            "2330": "altcoinchain",
         }
         return `https://${chain.IS_MAIN_NET? "" : "testnets."}opensea.io/assets/${chainIdToSymbol[chain.CHAIN_ID]}/${chain.NFT_ADDRESS}/${nft.tokenId}`;
     }
@@ -39,12 +40,13 @@ export const LooksRare: Marketplace = {
 
 export const NFTrade: Marketplace = {
     name: "NFTrade",
-    supportedChains: ["4", "56", "137"],
+    supportedChains: ["4", "56", "137", "2330"],
     getListingUrl: (chain: Chain, nft: NFTMetadata) =>  {
         const chainIdToSymbol: {[key: string]: string} = {
             "4": "rin",
             "56": "bsc",
             "137": "polygon",
+            "2330": "altcoinchain",
         }
         return `https://${chain.IS_MAIN_NET? "" : "testnets."}nftrade.com/assets/${chainIdToSymbol[chain.CHAIN_ID]}/${chain.NFT_ADDRESS}/${nft.tokenId}`;
     }
