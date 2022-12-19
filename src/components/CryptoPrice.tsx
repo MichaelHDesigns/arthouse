@@ -6,6 +6,7 @@ export const CRYPTO_EXCHANGE_RATES_TO_USD: {[key: string]: number} = {
   BNB: 307.08,
   ETH: 1791.77,
   MATIC: 0.5873,
+  ALT: 0.01,
 }
 
 const USD_SYMBOL = "USD";
