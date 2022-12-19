@@ -13,10 +13,10 @@ function getAvailableChains() {
 
 const hardHatSettings = {
     networks: {
-      c4ei: {
-        url: `https://rpc.c4ei.net`,
+      altcoinchain: {
+        url: `https://rpc0.altcoinchain.org/rpc`,
         accounts: [`0x${CONTRACT_DEPLOYMENT_WALLET_PRIVATE_KEY}`],
-        chainId: 21004
+        chainId: 2330
       },
       mumbai: {
           url: `https://polygon-mumbai.infura.io/v3/${rpcApiKeyMumbai}`,
