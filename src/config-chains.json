@@ -1,16 +1,4 @@
 {
-    "2330": {
-        "NETWORK_NAME": "Mainnet",
-        "CHAIN_NAME": "Altcoinchain",
-        "CURRENCY_SYMBOL": "ALT",
-        "NFT_MARKETPLACE_ADDRESS": "0x8dA3dA022d7a5224615c8F2E3fFdDc5B883B24A2",
-        "NFT_ADDRESS": "0x8dA3dA022d7a5224615c8F2E3fFdDc5B883B24A2",
-        "IS_MAIN_NET": true,
-        "LOGO_URL": "https://media.discordapp.net/attachments/1050912293317255228/1051925154739015701/Asset_22.png?width=577&height=577",
-        "CHAIN_ID": "2330",
-        "BLOCK_EXPLORER_URL": "http://expedition.altcoinchain.org/",
-        "RPC_PROVIDER_URL": "https://rpc0.altcoinchain.org/rpc"
-    },
     "4": {
         "NETWORK_NAME": "Rinkeby",
         "CHAIN_NAME": "Ethereum",
@@ -58,6 +46,18 @@
         "CHAIN_ID": "137",
         "BLOCK_EXPLORER_URL": "https://polygonscan.com",
         "RPC_PROVIDER_URL": "https://polygon-rpc.com"
+    },
+    "2330": {
+        "NETWORK_NAME": "Mainnet",
+        "CHAIN_NAME": "Altcoinchain",
+        "CURRENCY_SYMBOL": "ALT",
+        "NFT_MARKETPLACE_ADDRESS": "0x205223994e5b1dd39bdfa936c0adee2b62712a7c",
+        "NFT_ADDRESS": "0x9860d6c0a69bdd9960d1925a1bac86cb2cf4c699",
+        "IS_MAIN_NET": true,
+        "LOGO_URL": "https://media.discordapp.net/attachments/1050912293317255228/1051925154739015701/Asset_22.png?width=577&height=577",
+        "CHAIN_ID": "2330",
+        "BLOCK_EXPLORER_URL": "http://expedition.altcoinchain.org/",
+        "RPC_PROVIDER_URL": "https://rpc0.altcoinchain.org/rpc"
     },
     "44787": {
         "NETWORK_NAME": "Alfajores",
