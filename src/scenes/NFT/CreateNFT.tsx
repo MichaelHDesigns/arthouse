@@ -19,7 +19,7 @@ const { Option } = Select;
 
 const { TextArea } = Input;
 
-const ipfsHostUrl = 'https://ipfs.infura.io:5001/api/v0';
+const ipfsHostUrl = 'https://ipfs.io/ipfs/bafybeiggck4zcfr6y7bt6ffxkiymd6qyjhmygupgzuuc2uvnq6xfmsmujm';
 const client = (ipfsHttpClient as any)(ipfsHostUrl);
 
 function CreateNFT() {
@@ -43,7 +43,7 @@ function CreateNFT() {
           progress: (progressValue: any) => console.log(`received: ${progressValue}`)
         }
       )
-      const url = `https://ipfs.infura.io/ipfs/${added.path}`
+      const url = `https://ipfs.io/ipfs/bafybeiggck4zcfr6y7bt6ffxkiymd6qyjhmygupgzuuc2uvnq6xfmsmujm/${added.path}`
       setFileUrl(url)
     } catch (error) {
       console.log('Error uploading file: ', error);
@@ -65,7 +65,7 @@ function CreateNFT() {
         })
 
         const added = await client.add(data)
-        url = `https://ipfs.infura.io/ipfs/${added.path}`
+        url = `https://ipfs.io/ipfs/bafybeiggck4zcfr6y7bt6ffxkiymd6qyjhmygupgzuuc2uvnq6xfmsmujm/${added.path}`
         // url = "https://bafybeicjitpyvkvqrm63pnfwv2e7wxkqb6meg3vemz6s7cyc4bpcuaz44y.ipfs.infura-ipfs.io/"
         /* after file is uploaded to IPFS, pass the URL to save it on Network */
         setNftMetadataUrl(url);
