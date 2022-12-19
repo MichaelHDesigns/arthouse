@@ -69,7 +69,7 @@
         "IS_MAIN_NET": true,
         "LOGO_URL": "https://media.discordapp.net/attachments/1050912293317255228/1051925154739015701/Asset_22.png?width=577&height=577",
         "CHAIN_ID": "2330",
-        "BLOCK_EXPLORER_URL": "http://expedition.altcoinchain.org/",
+        "BLOCK_EXPLORER_URL": "http://expedition.altcoinchain.org",
         "RPC_PROVIDER_URL": "https://rpc0.altcoinchain.org/rpc"
     },
     "44787": {
