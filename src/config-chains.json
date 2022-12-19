@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-=======
+
     "2330": {
         "NETWORK_NAME": "Mainnet",
         "CHAIN_NAME": "Altcoinchain",
@@ -13,7 +12,6 @@
         "BLOCK_EXPLORER_URL": "http://expedition.altcoinchain.org",
         "RPC_PROVIDER_URL": "https://rpc0.altcoinchain.org/rpc"
     },
->>>>>>> 68766bee1083893dab37d80b11f15610977a82c0
     "4": {
         "NETWORK_NAME": "Rinkeby",
         "CHAIN_NAME": "Ethereum",
