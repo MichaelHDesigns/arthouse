@@ -16,7 +16,7 @@ contract NFT is ERC721URIStorage {
         uint256 indexed tokenId,
         string tokenURI
     );
-    constructor() ERC721("C4ei NFT", "C4EINFT") {}
+    constructor() ERC721("ALT NFT", "ALTNFT") {}
 
     function createToken(string memory tokenURI) public returns (uint) {
         _tokenIds.increment();
