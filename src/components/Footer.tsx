@@ -22,27 +22,27 @@ function Footer() {
                                 
                                 <li>
                                     <a  target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@c4ei.tech">
-                                    <FontAwesomeIcon icon={faTiktok} />
+                                    <FontAwesomeIcon IconPop={faTiktok} />
                                     </a>
                                 </li>
                                 <li>
                                     <a  target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCG2iWiYgJYkjBl4EdYGI5mw/">
-                                        <FontAwesomeIcon icon={faYoutube} />
+                                        <FontAwesomeIcon IconPop={faYoutube} />
                                     </a>
                                 </li>
                                 <li>
                                     <a  target="_blank" rel="noopener noreferrer" href="https://twitter.com/c4eitech">
-                                        <FontAwesomeIcon icon={faTwitter} />
+                                        <FontAwesomeIcon IconPop={faTwitter} />
                                     </a>
                                 </li>
                                 <li>
                                     <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/c4eitech/">
-                                        <FontAwesomeIcon icon={faInstagram} />
+                                        <FontAwesomeIcon IconPop={faInstagram} />
                                     </a>
                                 </li>
                                 <li>
                                     <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/c4ei-tech/">
-                                        <FontAwesomeIcon icon={faLinkedin} />
+                                        <FontAwesomeIcon IconPop={faLinkedin} />
                                     </a>
                                 </li>
                             </span>
