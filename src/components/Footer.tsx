@@ -3,6 +3,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faInstagram, faLinkedin, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './Footer.scss';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+interface Props {
+   img: IconProp;
+}
 
 function Footer() {
     return (<React.Fragment>
