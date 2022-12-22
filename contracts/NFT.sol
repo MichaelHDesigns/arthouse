@@ -1,29 +1,27 @@
-// contracts/NFT.sol
-// SPDX-License-Identifier: MIT OR Apache-2.0
-pragma solidity ^0.8.3;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-
-import "hardhat/console.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract NFT is ERC721URIStorage {
     using Counters for Counters.Counter;
-    Counters.Counter private _tokenIds;
+    Counters.Counter private _tokenIds; // Tracking the no of tokens minted
+    address contractAddress; // Address to allow NFT to be interacted with
 
-    event NFTMinted (
-        uint256 indexed tokenId,
-        string tokenURI
-    );
-    constructor() ERC721("ALT NFT", "ALTNFT") {}
+    constructor(address marketPlaceAddress) ERC721("ALT Devil Tokens", "ADT") {
+        contractAddress = marketPlaceAddress;
+    }
 
-    function createToken(string memory tokenURI) public returns (uint) {
-        _tokenIds.increment();
-        uint256 newTokenId = _tokenIds.current();
-        _mint(msg.sender, newTokenId);
-        _setTokenURI(newTokenId, tokenURI);
-        emit NFTMinted(newTokenId, tokenURI);
+    // This function is called when the token is to be created
+    function createToken(string memory tokenURI) public returns (uint256) {
+        _tokenIds.increment(); // Increment the tokenIds counter
+        uint256 newTokenId = _tokenIds.current(); // The new token id is the current value of the counter
+        _mint(msg.sender, newTokenId); // mint the token to the sender
+        _setTokenURI(newTokenId, tokenURI); // set the tokenURI to the tokenId.
+        setApprovalForAll(contractAddress, true); // set the contract as an approved token
+
         return newTokenId;
     }
 }
